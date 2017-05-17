@@ -1,0 +1,48 @@
+# Basic
+title: Chen, Bona
+subtitle: Personal Website
+description: Talk & Coding
+url: "http://127.0.0.1:4000"
+
+# Comment
+comment:
+    disqus: bona 
+
+# Social
+social:
+    github: chenbona
+    # twitter: 
+    mail: bonachen87@gmail.com
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: Home
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: Archives, description: archives, url: '/archives'}   
+    - {title: Tags, description: tags, url: '/tags'}     
+    
+
+# plugins
+gems: [jekyll-paginate,jekyll-sitemap,jekyll-mermaid]
+
+# Pagination
+paginate: 10
+paginate_path: "page/:num/"
+
+# mermaid
+mermaid:
+  src: '../../../js/mermaid.min.js'
+
+
